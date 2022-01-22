@@ -25,6 +25,7 @@ Including and using:
 ## Using as program
 1. Compile
 2. Open using Prog FILEIN FILEOUT POINTSIZE OFFSET. 
+
 FILEIN - filename of image, FILEOUT - filename of file to return math expressions, POINTSIZE - point size of individual pixels(recomendated 0.3), OFFSET - offset by 0 0.
 
 ## Examples
