@@ -2,7 +2,7 @@
 A pure C++ program(can be used as library), that "converts" images to math graphs
 
 ## How it works
-**grapher** makes grayscale mode image from input, makes monochrome image. After program will work only with monochrome image. **grapher** searches for diagonal, horizontal, vertical "sections", individual pixels(pixels not included in sections) on image. It converts sections and invidual pixels coordinates to math expressions. Next, it exports expressions in [![Desmos](https://desmos.com/calculator)
+**grapher** makes grayscale mode image from input, makes monochrome image. After program will work only with monochrome image. **grapher** searches for diagonal, horizontal, vertical "sections", individual pixels(pixels not included in sections) on image. It converts sections and invidual pixels coordinates to math expressions. Next, it exports expressions in [Desmos](https://desmos.com/calculator)
 
 ## Build and requirements
 Just build with any C++ compiler, for sure, it maybe should be not older than 5 years old :)
