@@ -16,11 +16,16 @@ Just build with any C++ compiler, for sure, it maybe should be not older than 5 
 1. Check Utils.h, BMP.h, all functions here
 Including and using:
 
-## Using
+## Using as library
 1. Include Utils.h header
 2. Define pointsize and offset variables(like in main.cpp), they are external.
 3. Create BMP object, set it's filename variable.
 4. Use bmp.open, check Docs section and main.cpp
+
+## Using as program
+1. Compile
+2. Open using Prog FILEIN FILEOUT POINTSIZE OFFSET. 
+FILEIN - filename of image, FILEOUT - filename of file to return math expressions, POINTSIZE - point size of individual pixels(recomendated 0.3), OFFSET - offset by 0 0.
 
 ## Examples
 https://www.desmos.com/calculator/wzx2pkdtfy
