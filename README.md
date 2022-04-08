@@ -13,7 +13,7 @@ Just build with any C++ compiler, for sure, it maybe should be not older than 5 
 3. Searching for diagonals takes a lot of time
 
 ## Documentation(if using as library)
-1. Check Utils.h, BMP.h, all functions here
+1. Check Utils.h, BMP.h, all functions are described here
 Including and using:
 
 ## Using as library
