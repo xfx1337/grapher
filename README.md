@@ -31,3 +31,5 @@ https://www.desmos.com/calculator/wzx2pkdtfy
 
 Good luck
 
+
+discord: xfx1337#9278
