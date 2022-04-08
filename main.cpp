@@ -11,6 +11,10 @@ float pointsize;
 int offset;
 
 int main(int argc, char** argv) {
+	if (argc < 4) {
+		cout << "Invalid Syntax! Usage: Prog FILEIN FILEOUT POINTSIZE OFFSET" << endl;
+		return -1;
+	}
 	string filename = argv[1];
 	string out = argv[2];
 	pointsize = atof(argv[3]); // check Utils.h
@@ -104,6 +108,6 @@ int main(int argc, char** argv) {
 	}
 	cout << "Execution time: " << (float)(chrono::duration_cast<std::chrono::microseconds>(end - start).count()) / 1000000 << "s" << endl;
 	cout << "Number of functions: " << count << endl;
-	cout << "---------------------";
+	cout << "---------------------" << endl;
 	return 0;
 }
