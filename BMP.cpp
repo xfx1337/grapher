@@ -1,4 +1,5 @@
 #include "BMP.h"
+#include <cstring>
 
 void BMP::close() {
 	fclose(this->file);
